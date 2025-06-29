@@ -1,5 +1,7 @@
+import numpy as np
 import pandas as pd
-
+import json
+import requests
 # Create sample data
 data = {
     'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
